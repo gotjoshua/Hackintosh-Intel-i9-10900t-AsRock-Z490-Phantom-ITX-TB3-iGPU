@@ -1,3 +1,10 @@
+# Reason for the fork:
+I have no external GPU I had quite a bit of trouble getting the iGPU to work, so I want to document that process here.
+
+-------  
+original README below  
+-------  
+
 # Hackintosh-Intel-i9-10900k-AsRock-Z490-Phantom-ITX-TB3
 
 ![ITX Build](Docs/DSC03052.jpg)
