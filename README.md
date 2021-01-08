@@ -1,5 +1,9 @@
 # Reason for the fork:
-I have no external GPU I had quite a bit of trouble getting the iGPU to work, so I want to document that process here.
+I have no external GPU I had quite a bit of trouble getting the iGPU to work and still didn't manage with bluetoth nor wifi, so I want to document those processes here.
+
+I upgraded to OC 0.6.5  
+[This workaround](https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-AsRock-Z490-Phantom-ITX-TB3/issues/25) is still needed for ethernet to work.
+
 
 -------  
 original README below  
