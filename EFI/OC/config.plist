@@ -81,11 +81,15 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
+				<data>
+				Q3B1UG0AAAA=
+				</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>U1NEVA==</data>
+				<data>
+				U1NEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>All</key>
@@ -95,11 +99,15 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
+				<data>
+				Q3B1MElzdAA=
+				</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>U1NEVA==</data>
+				<data>
+				U1NEVA==
+				</data>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -189,27 +197,41 @@
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
 				<key>AAPL,ig-platform-id</key>
-				<data>BwCbPg==</data>
+				<data>
+				BwCbPg==
+				</data>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>
+				mz4AAA==
+				</data>
 				<key>#device-id+platform-id working combo notes</key>
-				<string>Using Recommended Desktop Framebuffer: 0x3E9B0007 -> BwCbPg== with a CFL device-id 0x3E9B -> mz4AAA==</string>
+				<string>Using Recommended Desktop Framebuffer: 0x3E9B0007 -&gt; BwCbPg== with a CFL device-id 0x3E9B -&gt; mz4AAA==</string>
 				<key>#device-id-notes</key>
-				<string>CFL: 0x3E91->kT4AAA==  0x3E98->mD4AAA==  0x3E9B->mz4AAA==  CML: 0x9BC5->xZsAAA==  0x9BC4->xJsAAA==  0x9BC8->yJsAAA==</string>
+				<string>CFL: 0x3E91-&gt;kT4AAA==  0x3E98-&gt;mD4AAA==  0x3E9B-&gt;mz4AAA==  CML: 0x9BC5-&gt;xZsAAA==  0x9BC4-&gt;xJsAAA==  0x9BC8-&gt;yJsAAA==</string>
 				<key>#ig-platform-id-notes</key>
-				<string>0x3E9B0007->BwCbPg==  0x3E9B0000->AACbPg==  0x3EA50000->AAClPg==</string>
+				<string>0x3E9B0007-&gt;BwCbPg==  0x3E9B0000-&gt;AACbPg==  0x3EA50000-&gt;AAClPg==</string>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAwA==</data>
+				<data>
+				AAAAwA==
+				</data>
 				<key>#device_type</key>
 				<string>VGA compatible controller</string>
 				<key>#framebuffer-stolenmem</key>
-				<data>00003001</data>
+				<data>
+				00003001
+				</data>
 				<key>#device-id-default</key>
-				<data>xZsAAA==</data>
+				<data>
+				xZsAAA==
+				</data>
 				<key>#enable-hdmi20</key>
-				<data>01000000</data>
+				<data>
+				01000000
+				</data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
 				<key>#enable-max-pixel-clock-override</key>
@@ -218,7 +240,9 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>acpi-wake-type</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
@@ -383,60 +407,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>itlwm.kext</string>
-				<key>Comment</key>
-				<string>IntelWireless Driver</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/itlwm</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>12.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>IntelBluetoothFirmware.kext</string>
-				<key>Comment</key>
-				<string>IntelBluetoothFirmware Driver</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelBluetoothFirmware</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Comment</key>
-				<string>IntelBluetoothInjector Driver</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelBluetoothInjector</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>USBWakeFixup.kext</string>
 				<key>Comment</key>
 				<string>Fixes the issue, that it takes to keystrikes to wake up the display if you wake up the PC with your keyboard.</string>
@@ -474,9 +444,11 @@
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -565,7 +537,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -573,7 +545,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -642,9 +614,11 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>#ScanPolicy</key>
@@ -665,27 +639,36 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
 				<string>keepsyms=1 agdpmod=pikera shikigva=80 alcid=11</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>
+				5wMAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
