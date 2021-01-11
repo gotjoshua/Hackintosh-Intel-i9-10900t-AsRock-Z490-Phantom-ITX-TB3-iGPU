@@ -103,7 +103,8 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -188,9 +189,15 @@
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
 				<key>AAPL,ig-platform-id</key>
-				<data>07009B3E</data>
+				<data>BwCbPg==</data>
 				<key>device-id</key>
-				<data>yJsAAA==</data>
+				<data>mz4AAA==</data>
+				<key>#device-id+platform-id working combo notes</key>
+				<string>Using Recommended Desktop Framebuffer: 0x3E9B0007 -> BwCbPg== with a CFL device-id 0x3E9B -> mz4AAA==</string>
+				<key>#device-id-notes</key>
+				<string>CFL: 0x3E91->kT4AAA==  0x3E98->mD4AAA==  0x3E9B->mz4AAA==  CML: 0x9BC5->xZsAAA==  0x9BC4->xJsAAA==  0x9BC8->yJsAAA==</string>
+				<key>#ig-platform-id-notes</key>
+				<string>0x3E9B0007->BwCbPg==  0x3E9B0000->AACbPg==  0x3EA50000->AAClPg==</string>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
@@ -495,7 +502,8 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>ExtendBTFeatureFlags</key>
@@ -548,7 +556,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -646,7 +655,8 @@
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
