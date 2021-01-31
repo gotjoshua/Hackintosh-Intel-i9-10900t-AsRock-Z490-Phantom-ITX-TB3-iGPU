@@ -592,9 +592,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -606,6 +606,8 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
+			<integer>0</integer>
+			<key>#Target for debug</key>
 			<integer>81</integer>
 		</dict>
 		<key>Entries</key>
@@ -691,7 +693,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 agdpmod=pikera shikigva=80 alcid=11</string>
+				<string>keepsyms=1 agdpmod=pikera shikigva=80 alcid=11</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -762,7 +764,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02XXXXXXX</string>
+			<string>C02037401J90000UE</string>
 			<key>ROM</key>
 			<data></data>
 			<key>ProcessorType</key>
@@ -772,9 +774,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DXXXXX</string>
+			<string>C02DDDYX046M</string>
 			<key>SystemUUID</key>
-			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX</string>
+			<string>ADB4665E-A46E-429E-AF65-E8DE4B2F50F2</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

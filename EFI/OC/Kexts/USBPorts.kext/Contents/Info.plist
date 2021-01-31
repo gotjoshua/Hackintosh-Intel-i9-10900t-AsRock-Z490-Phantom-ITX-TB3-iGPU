@@ -48,12 +48,14 @@
 				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
-				GAAAAA==
+				FgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB2.0 Internal 1</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -63,12 +65,25 @@
 						AQAAAA==
 						</data>
 					</dict>
+					<key>HS02</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB2.0 Internal 2</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS02</string>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
 					<key>HS03</key>
 					<dict>
 						<key>Comment</key>
 						<string>USB2.0 Bottom [USB2]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS03</string>
 						<key>port</key>
@@ -81,7 +96,7 @@
 						<key>Comment</key>
 						<string>USB2.0 Top [USB1]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS04</string>
 						<key>port</key>
@@ -89,34 +104,12 @@
 						BAAAAA==
 						</data>
 					</dict>
-					<key>HS08</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>HS08</string>
-						<key>port</key>
-						<data>
-						CAAAAA==
-						</data>
-					</dict>
-					<key>HS09</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>HS09</string>
-						<key>port</key>
-						<data>
-						CQAAAA==
-						</data>
-					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>Comment</key>
 						<string>Front Panel Bottom USB3.2 Gen1 [USB3_7]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS10</string>
 						<key>port</key>
@@ -129,7 +122,7 @@
 						<key>Comment</key>
 						<string>Front Panel Top USB3.2 Gen1 [USB3_6]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS11</string>
 						<key>port</key>
@@ -139,6 +132,8 @@
 					</dict>
 					<key>HS12</key>
 					<dict>
+						<key>Comment</key>
+						<string>USBC 2.0 Hub</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>name</key>
@@ -146,6 +141,19 @@
 						<key>port</key>
 						<data>
 						DAAAAA==
+						</data>
+					</dict>
+					<key>HS13</key>
+					<dict>
+						<key>Comment</key>
+						<string>Internal LED Controller</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS13</string>
+						<key>port</key>
+						<data>
+						DQAAAA==
 						</data>
 					</dict>
 					<key>HS14</key>
@@ -166,7 +174,7 @@
 						<key>Comment</key>
 						<string>USB3.2 Gen2 Above TB [USB3_3]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>SS03</string>
 						<key>port</key>
@@ -179,7 +187,7 @@
 						<key>Comment</key>
 						<string>USB3.2 Gen2 Bottom (under ethernet) [USB3_5]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>10</integer>
 						<key>name</key>
 						<string>SS05</string>
 						<key>port</key>
@@ -192,23 +200,12 @@
 						<key>Comment</key>
 						<string>USB3.2 Gen2 Top (Directly under ethernet) [USB3_4]</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>10</integer>
 						<key>name</key>
 						<string>SS06</string>
 						<key>port</key>
 						<data>
 						FgAAAA==
-						</data>
-					</dict>
-					<key>SS08</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS08</string>
-						<key>port</key>
-						<data>
-						GAAAAA==
 						</data>
 					</dict>
 				</dict>
@@ -248,6 +245,8 @@
 				<dict>
 					<key>SSP1</key>
 					<dict>
+						<key>Comment</key>
+						<string>USBC Thunderbolt</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>name</key>
